@@ -15,7 +15,6 @@ set updatetime=1000
 set smartindent
 set autoindent
 
-filetype indent plugin on
 set relativenumber
 set number
 set laststatus=2
