@@ -26,3 +26,5 @@ let g:pymode_rope = 0
 set tags=./tags
 set tags+=~/miniconda3/lib/python3.8/site-packages/pytorch_lightning/tags
 set path+=**
+
+set backspace=indent,eol,start
