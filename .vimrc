@@ -1,6 +1,9 @@
 call plug#begin('~/.vim/pack')
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'Soares/write.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'w0rp/ale'
+Plug 'hdima/python-syntax'
 call plug#end()
 
 syntax on
