@@ -4,6 +4,8 @@ Plug 'Soares/write.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'hdima/python-syntax'
+Plug 'davidhalter/jedi-vim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 syntax on
@@ -27,7 +29,9 @@ let g:is_bash=1
 let g:pymode_rope = 0
 
 set tags=./tags
-set tags+=~/miniconda3/lib/python3.8/site-packages/pytorch_lightning/tags
 set path+=**
 
 set backspace=indent,eol,start
+
+let g:jedi#force_py_version = 3
+let g:jedi#environment_path = trim(system('pyenv which python3'))
