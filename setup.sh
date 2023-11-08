@@ -13,3 +13,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 ln -sf ${SCRIPTPATH}/.tmux.conf ~/.tmux.conf
 ln -sf ${SCRIPTPATH}/.vimrc ~/.vimrc
+ln -sf ${SCRIPTPATH}/nvim ~/.config/nvim
