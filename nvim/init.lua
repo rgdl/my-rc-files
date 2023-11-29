@@ -13,8 +13,17 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup(plugins, opts)
+-- Packages
+
+require("lazy").setup({
+    'airblade/vim-gitgutter',
+    'Soares/write.vim',
+	'w0rp/ale'
+})
 
 -- General config
 
 vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
