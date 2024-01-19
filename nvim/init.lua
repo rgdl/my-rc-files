@@ -18,6 +18,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     'airblade/vim-gitgutter',
     'Soares/write.vim',
+	'Vimjas/vim-python-pep8-indent',
 	'w0rp/ale'
 })
 
@@ -25,5 +26,11 @@ require("lazy").setup({
 
 vim.opt.number = true
 vim.opt.relativenumber = true
+
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+
+vim.opt.colorcolumn = "80"
+
+indent = { enable = true, disable = { "python" } }

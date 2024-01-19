@@ -1,6 +1,7 @@
 {
-  "ale": { "branch": "master", "commit": "901d3ff8dd77c03662bc1105ba9964cff063178a" },
+  "ale": { "branch": "master", "commit": "8922478a83cd06bfe5b82eb45279649adc4ec046" },
   "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
-  "vim-gitgutter": { "branch": "main", "commit": "f7b97666ae36c7b3f262f3190dbcd7033845d985" },
+  "vim-gitgutter": { "branch": "main", "commit": "67ef116100b40f9ca128196504a2e0bc0a2753b0" },
+  "vim-python-pep8-indent": { "branch": "master", "commit": "60ba5e11a61618c0344e2db190210145083c91f8" },
   "write.vim": { "branch": "master", "commit": "9baa8cbce42609a52e2acc7f808ce2fcb8e84a06" }
 }
